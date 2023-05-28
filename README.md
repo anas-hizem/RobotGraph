@@ -27,12 +27,12 @@ This robot is capable of finding the end of a non-cyclic line maze, calculating 
  • In order to solve the maze, the robot needs to traverse the maze twice.
  • In the first run, it goes down some number of dead-ends, but records these as “bad” paths so that they can be avoided on the second run.
  ### FIRST RUN 
- - The robot will save the path in a string .
- - for example: PATH="FLLFDFRLS"
- -If the robot go forward : PATH +="F"
- -If the robot go left : PATH +="L"
- -If the robot go right : PATH +="R"
- -If the robot find a dead end : PATH +="D"
- -If the robot finish : PATH +="S"
+  The robot will save the path in a string .
+  for example: PATH="FLLFDFRLS"
+  • If the robot go forward : PATH +="F"
+  • If the robot go left : PATH +="L"
+  • If the robot go right : PATH +="R"
+  • If the robot find a dead end : PATH +="D"
+  • If the robot finish : PATH +="S"
  ### SECOND RUN 
- - The robot calculates the shortest way after applying a graph algorithm to PATH.
+  • The robot calculates the shortest way after applying a graph algorithm to PATH.
