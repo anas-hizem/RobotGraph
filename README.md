@@ -2,6 +2,7 @@
 This robot is capable of finding the end of a non-cyclic line maze, calculating the shortest path from the start point to the end point, and then driving that shortest path.
  ## Components
  1.Arduino Uno
+ https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Arduino_Uno_-_R3.jpg/220px-Arduino_Uno_-_R3.jpg
  2.H-bridge
  3.Motors
  4.Lipo
