@@ -2,11 +2,29 @@
 This robot is capable of finding the end of a non-cyclic line maze, calculating the shortest path from the start point to the end point, and then driving that shortest path.
  ## Components
  1.Arduino Uno
+ 
+ ![arduino uno](https://github.com/Anashizem/RobotGraph/assets/120311351/51f79232-c8c2-453e-a3ed-feaf29eaf206)
+ 
  2.H-bridge
+ 
+ ![H-bridge](https://github.com/Anashizem/RobotGraph/assets/120311351/69032a0b-0231-4b54-acef-f8658e3c2a38)
+
  3.Motors
+ 
+ ![motors](https://github.com/Anashizem/RobotGraph/assets/120311351/efa84a83-2475-475d-acf1-e30108dfb749)
+
  4.Lipo
+ 
+ ![lipo](https://github.com/Anashizem/RobotGraph/assets/120311351/01b5f078-9d81-409b-992d-b93c94ba8543)
+
  5.TCRT5000
+ 
+ ![tcrt](https://github.com/Anashizem/RobotGraph/assets/120311351/e360237c-6451-49fa-9854-f9fb064bb6bd)
+
  6.LCD SCREEN
+ 
+ ![lcd](https://github.com/Anashizem/RobotGraph/assets/120311351/406c8bda-d099-4cbe-9e53-3fe554caca26)
+
  ## Algorithm
  to solve the maze, the robot may use two algorithms :
  ### Left Hand Rule 
@@ -22,7 +40,8 @@ This robot is capable of finding the end of a non-cyclic line maze, calculating 
  
  ## The 8 possibilities
  Given a maze , there are only 8 possible situations that the robot can encounter :
-https://github.com/Anashizem/RobotGraph/issues/1#issue-1729392137
+ 
+![the 8 possibilities](https://github.com/Anashizem/RobotGraph/assets/120311351/b68e7192-f155-49d7-81e0-539488577014)
  
  ## Main algorithm 
  • In order to solve the maze, the robot needs to traverse the maze twice.
