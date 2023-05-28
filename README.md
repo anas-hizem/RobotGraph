@@ -22,8 +22,7 @@ This robot is capable of finding the end of a non-cyclic line maze, calculating 
  
  ## The 8 possibilities
  Given a maze , there are only 8 possible situations that the robot can encounter :
- ![Uploading 343005067_120175964384038_440643245365796400_n (1).png…]()
-
+https://github.com/Anashizem/RobotGraph/issues/1#issue-1729392137
  
  ## Main algorithm 
  • In order to solve the maze, the robot needs to traverse the maze twice.
